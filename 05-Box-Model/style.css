@@ -1,0 +1,15 @@
+.Parent {
+    width: 800px;
+    height: 300px;
+}
+.one {
+    background-color: aquamarine;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    /* OverFlow */
+    /* word-break: break-all; */
+}
+.two {
+    background-color: blueviolet;
+}
