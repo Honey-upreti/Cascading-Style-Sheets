@@ -4,7 +4,7 @@
 }
 .one {
     background-color: aquamarine;
-    width: 200%;
+    width: 50%;
     /*Depends on parent width  */
     height: 300px;
     padding: 10px;
