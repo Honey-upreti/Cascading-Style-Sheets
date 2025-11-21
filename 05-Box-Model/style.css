@@ -1,14 +1,15 @@
-.Parent {
-    width: 800px;
-    height: 300px;
+.parent {
+    background-color: red;
 }
 .one {
+    width: 300px;
     background-color: aquamarine;
-    width: 200px;
-    height: 300px;
-    padding: 10px;
+
+    padding: 25px;
     /* OverFlow */
     /* word-break: break-all; */
+    border: 50px solid teal;
+    box-sizing: border-box;
 }
 .two {
     background-color: blueviolet;
