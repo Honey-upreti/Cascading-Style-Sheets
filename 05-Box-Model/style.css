@@ -4,8 +4,15 @@
 .one {
     width: 300px;
     background-color: aquamarine;
+<<<<<<< HEAD
 
     padding: 25px;
+=======
+    width: 50%;
+    /*Depends on parent width  */
+    height: 300px;
+    padding: 10px;
+>>>>>>> 6aabbeebb7b13f9317862910322ec30ad4da1196
     /* OverFlow */
     /* word-break: break-all; */
     border: 50px solid teal;
