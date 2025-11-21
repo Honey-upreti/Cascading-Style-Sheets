@@ -1,19 +1,24 @@
-.parent {
-    background-color: red;
+* {
+    box-sizing: border-box;
 }
+body {
+    margin: 0;
+}
+
 .one {
     width: 300px;
     background-color: aquamarine;
     padding: 25px;
-    width: 50%;
-    /*Depends on parent width  */
-    height: 300px;
-    padding: 10px;
     /* OverFlow */
     /* word-break: break-all; */
+    margin: 40px;
     border: 50px solid teal;
     box-sizing: border-box;
 }
 .two {
-    background-color: blueviolet;
+    background-color: burlywood;
+    width: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 50px solid hotpink;
 }
