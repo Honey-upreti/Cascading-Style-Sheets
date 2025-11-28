@@ -43,6 +43,7 @@ img {
     margin: 10px;
 }
 iframe {
+    /* Embedded code */
     width: 480px;
     height: 360px;
     margin: 20px;
