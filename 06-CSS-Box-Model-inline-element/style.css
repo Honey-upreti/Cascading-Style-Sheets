@@ -50,6 +50,7 @@ iframe {
     
 }
 video {
+    /* Video format */
     width: 480px;
     height: 360px;
     margin: 20px;
