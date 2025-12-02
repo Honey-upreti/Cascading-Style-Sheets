@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.box {
+    background: linear-gradient(to right, red,yellow);
+    padding: 10%;
+    border: 10px solid black;
+    font-size: 200%; /* 200% of the parent element's font size */
+}
+section {
+    width: 400px;
+    background-color: blue;
+    padding: 10%; /* 10% of the width of the parent element */
+    margin: 5%;  /* 5% of the width of the parent element */
+    box-sizing: border-box;
+}
