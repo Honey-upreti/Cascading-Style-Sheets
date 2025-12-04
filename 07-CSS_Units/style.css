@@ -17,11 +17,15 @@ body {
 }
 section {
     background-color: blue;
-    width: 100vw;
+    width: 50vw;
+    padding: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 4vw;
     /* width: 400px;
     padding: 10%; /* 10% of the width of the parent element */
     /* margin: 5%;  5% of the width of the parent element */
     /* box-sizing: border-box; */
     /* font-size: 32px; */
-    
+
 }
