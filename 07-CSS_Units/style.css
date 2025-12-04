@@ -1,17 +1,26 @@
+html {
+    width: 400px;
+}
+
 body {
     margin: 0;
+    width: 600px;
 }
 
 .box {
+    width: 50%;
     background: linear-gradient(to right, red,yellow);
-    padding: 10%;
-    border: 10px solid black;
-    font-size: 200%; /* 200% of the parent element's font size */
+    padding: 24px;
+    box-sizing: border-box;
+    /* border: 10px solid black; */
+    /* font-size: 0.5%; 200% of the parent element's font size */
 }
 section {
-    width: 400px;
     background-color: blue;
+    width: 100vw;
+    /* width: 400px;
     padding: 10%; /* 10% of the width of the parent element */
-    margin: 5%;  /* 5% of the width of the parent element */
-    box-sizing: border-box;
+    /* margin: 5%;  5% of the width of the parent element */
+    /* box-sizing: border-box; */
+    /* font-size: 32px; */
 }
