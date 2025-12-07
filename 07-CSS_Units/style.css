@@ -1,27 +1,29 @@
-html {
-    width: 400px;
+:root {
+    font-size: 100px; /* 32px if the browser default is 16px */
 }
 
 body {
     margin: 0;
-    width: 600px;
+    font-size: 2em; /* 2 times the font size of the html element */
 }
 
 .box {
-    width: 50%;
+    width: 1em; /* 1 times the font size of the element */
     background: linear-gradient(to right, red,yellow);
-    padding: 24px;
-    box-sizing: border-box;
+    padding: 0.5em; /* 0.5 times the font size of the element */
+    /* box-sizing: border-box; */
+    /* font-size: 2em; 2 times the font size of the parent element  */
     /* border: 10px solid black; */
-    /* font-size: 0.5%; 200% of the parent element's font size */
+    font-size: 2rem; /* 2 times the font size of the root element */
+    /* font-size: 2em; */
 }
 section {
     background-color: blue;
-    width: 50vw;
+    width: 50vw; /* 50% of the viewport width */
     padding: 10vw;
     margin: 10vw;
     border: 1vw solid green;
-    font-size: 2em;
+    font-size: 5rem; /* 5 times the font size of the root element */
     /* width: 400px;
     padding: 10%; /* 10% of the width of the parent element */
     /* margin: 5%;  5% of the width of the parent element */
