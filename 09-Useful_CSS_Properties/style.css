@@ -1,6 +1,8 @@
 .Box {
     width: 100px;
     height: 100px;
-    background-color: lightblue;
-    transform: scale(1.5); /* Scales the box to 1.5 times its original size */
+    background-color: rgba(173, 216, 230, 0.86);
+    transform: scale(1.5);
+    /* Scales the box to 1.5 times its original size */
+    transform-origin: 0 0;
 }
