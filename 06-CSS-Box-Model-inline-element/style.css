@@ -1,0 +1,60 @@
+body  {
+    margin: 0;
+}
+p  {
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    margin: 25px;
+}
+.inline-block  {
+    display: inline-block;
+    background-color: coral;
+}
+
+.html  {
+    display: inline-block;
+    background-color: cadetblue;
+    width: 60px;
+    height: 40px;
+    /* width not applied in span element */
+    padding: 25px;
+    border: 10px solid green;
+    margin: 25px;
+}
+/* Box model has some exceptions in inline elements such as span */
+div {
+    background-color: aquamarine;
+    padding: 25px;
+}
+a {
+    background-color: burlywood;
+    /* padding: 25px; */
+}
+img {
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    padding: 50px;
+    border: 10px solid deeppink;
+    margin: 10px;
+}
+iframe {
+    /* Embedded code */
+    width: 480px;
+    height: 360px;
+    margin: 20px;
+    
+}
+video {
+    /* Video format */
+    width: 480px;
+    height: 360px;
+    margin: 20px;
+}
+
+/* Recovering streak */
+/* Recovering streak */

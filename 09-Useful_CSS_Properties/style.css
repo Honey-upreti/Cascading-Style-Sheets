@@ -1,0 +1,66 @@
+main {
+    height: 400px;
+    width: 600px;
+    /* background: linear-gradient(to right, rgb(0, 47, 255), rgb(225, 0, 255)); */
+    position: relative;
+}
+
+/* Box is centered within the main container now  */
+.Box {
+    width: 300px;
+    height: 150px;
+    /* background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: -30px -45px; */
+    /* background-position: x-offset y-offset; */
+    background-image: url(Ashneer-grover_61fa229fe850c.webp);
+    /* opacity: 0.5; */
+    /* Sets the opacity to 50% */
+    /* transform: scale(1.5); */
+    /* Scales the box to 1.5 times its original size */
+    /* transform-origin: 100% 100%; */
+    /* transform: rotate(45deg); */
+    position: absolute;
+    border-radius: 10px;
+    padding: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Moves the box down by its own height */
+    /* margin-top: 100px; */
+    box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.369);
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* text-shadow: 2px 2px 4px #ff0000; */
+    /* text-shadow: x-offset y-offset blur-radius color; */
+    transition: all 500ms;
+}
+
+/* Difference b/w alpha and opacity is that alpha
+ is a property of the color value itself,
+  while opacity is a property of the whole element. */
+
+/* Difference b/w transform and transform-origin is that
+ transform defines the type of transformation to be applied,
+  while transform-origin defines the point around which the transformation occurs. */
+
+/* Difference b/w translate and margin is that translate moves the element
+   visually without affecting its position in the document flow,
+    while margin affects the layout by changing the space around the element. */
+
+/* box-shadow: x-offset y-offset blur-radius spread-radius color; */
+
+/* Difference b/w background and background-color is that
+ background is a shorthand property that can set multiple background-related properties
+  (like background-color, background-image, background-position, etc.) in one declaration,
+   while background-color specifically sets only the color of the background. */
+.Box:hover {
+    /* content: "Kya kar raha hai tu"; */
+    background-image: url(ashneer\ grover.jpg);
+    /* background: linear-gradient(to right, aqua,pink, magenta); */
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+h1 {
+    color: red;
+}

@@ -1,0 +1,24 @@
+Specificity in Css
+#html.html {
+    background-color: pink;
+}
+#html {
+    background-color: darkmagenta;
+}
+.html {
+    background-color: orange;
+}
+Cascading in Css
+li {
+    background-color: aqua;
+}
+li {
+    background-color: yellow;
+}
+.html {
+    background-color: lime;
+}
+
+
+
+/* Recovering streak */

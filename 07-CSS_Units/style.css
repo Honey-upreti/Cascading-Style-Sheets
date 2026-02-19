@@ -1,0 +1,45 @@
+:root {
+    font-size: 100px; /* 32px if the browser default is 16px */
+}
+
+body {
+    margin: 0;
+    font-size: 2em; /* 2 times the font size of the html element */
+}
+
+.box {
+    width: 1em; /* 1 times the font size of the element */
+    background: linear-gradient(to right, red,yellow);
+    padding: 0.5em; /* 0.5 times the font size of the element */
+    /* box-sizing: border-box; */
+    /* font-size: 2em; 2 times the font size of the parent element  */
+    /* border: 10px solid black; */
+    font-size: 2rem; /* 2 times the font size of the root element */
+    /* font-size: 2em; */
+}
+section {
+    background-color: blue;
+    width: 50vw; /* 50% of the viewport width */
+    padding: 10vw;
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 5rem; /* 5 times the font size of the root element */
+    /* width: 400px;
+    padding: 10%; /* 10% of the width of the parent element */
+    /* margin: 5%;  5% of the width of the parent element */
+    /* box-sizing: border-box; */
+    /* font-size: 32px; */
+
+}
+
+/* em is related to parent font size */
+/* rem is related to root font size */
+/* vw is related to viewport width */
+
+
+
+
+
+
+/* Recovering streak */
+/* Recovering streak */

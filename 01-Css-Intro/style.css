@@ -1,0 +1,12 @@
+p  {
+    color:  coral;
+    font-size: 32px;
+    font-weight: 700;
+    /* text-decoration:line-through wavy red; */
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+a {
+    text-decoration: underline wavy blue;
+}
