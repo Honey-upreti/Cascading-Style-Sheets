@@ -17,6 +17,8 @@ body {
 .parent  span {
     /* border: 4px solid cadetblue; */
     background-color: cadetblue;
+    flex-grow: 1;
+    /* flex-shrink: 0; */
     /* width: 200px; */
     /* height: 300px; */
     /* width and height properties only work on block-level elements, not on inline elements like span */
@@ -29,10 +31,13 @@ body {
     margin: 0;
      /* width: 400px; */
     /* width: max-content; */
+    /* flex-shrink: 0; */
 }
 
 .parent a {
     /* border: 4px solid yellowgreen; */
     background-color: yellowgreen;
+    /* flex-shrink: 0; */
      /* width: 400px; */
+     flex-grow: 1;
 }
