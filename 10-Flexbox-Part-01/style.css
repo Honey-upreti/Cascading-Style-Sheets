@@ -3,21 +3,28 @@ body {
 }
 
 .parent {
+    justify-content: center; 
+    /* used most in projects, it centers the children horizontally within the parent container */
     padding: 10px;
     /* border: 4px solid indianred; */
-    display: flex; 
+    display: flex;
+    /* allign-items: stretch; */
+    align-items: center;
+    /* used most in projects, it centers the children vertically within the parent container */
+    /* justify-content: space-between; */
+    height: 50vh;
     /* makes the children (span, p, a) block-level elements that can be arranged in a row */
     /* all children became flex items, and the width and height properties can be applied to them */
 }
- 
+
 * {
     box-sizing: border-box;
 }
 
-.parent  span {
+.parent span {
     /* border: 4px solid cadetblue; */
     background-color: cadetblue;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* flex-shrink: 0; */
     /* width: 200px; */
     /* height: 300px; */
@@ -29,15 +36,17 @@ body {
     /* border: 4px solid darkkhaki; */
     background-color: darkkhaki;
     margin: 0;
-     /* width: 400px; */
+    width: 400px;
     /* width: max-content; */
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
+    /* can also use min-width: 400px; instead of using shrink */
+    /* flex-grow: 1; */
 }
 
 .parent a {
     /* border: 4px solid yellowgreen; */
     background-color: yellowgreen;
-    /* flex-shrink: 0; */
-     /* width: 400px; */
-     flex-grow: 1;
+    flex-shrink: 0;
+    width: 400px;
+    /* flex-grow: 1; */
 }
