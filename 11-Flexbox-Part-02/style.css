@@ -99,10 +99,10 @@ body {
   /* margin-left: 16px; */
 }
 
-parent>*+* {
-  /* selects all elements except the first child of the parent container and applies the specified styles to them */
+/* .parent > * + * { */
+  /* selects all direct children of the parent container that are immediately preceded by another child element, and applies a left margin of 16px to create space between them. */
   /* margin-left: 16px; */
-}
+/* } */
 
 
 
