@@ -7,13 +7,19 @@ body {
   /* used most in projects, it centers the children horizontally within the parent container */
   /* padding: 10px; */
   border: 4px solid #cd5c5c;
-  display: flex;
+  display: inline-flex;
+  /* align-items: baseline; */
+  /* align-items: flex-start; */
   /* allign-items: stretch; */
+  /* align-items: center; */
+  /* align-content: center; */
+  /* align-items: flex-end; */
   /* justify-content: space-between; */
   /* creates space between the children (span, p, a) and pushes them to the edges of the parent container */
   /* justify-content: center; */
   /* justify-content: space-evenly; */
-  /* align-items: center; */
+  justify-content: space-around;
+  /* align-items: end; */
   /* used most in projects, it centers the children vertically within the parent container */
   /* justify-content: space-between; */
   /* height: 400px; */
@@ -21,11 +27,11 @@ body {
   /* all children became flex items, and the width and height properties can be applied to them */
   /* flex-direction: row-reverse; */
   /* changes the direction of the flex items to be in reverse order (from right to left) instead of the default (from left to right) */
-  /* flex-direction: column; */
+  flex-direction: column;
   /* changes the direction of the flex items to be in a column (from top to bottom) instead of the default row (from left to right) now height and width properties are swapped so width becomes height and height becomes width */
   height: 400px;
   /* flex-wrap: wrap; */
-  /* gap: 16px; */
+  gap: 16px;
   /* row-gap: 16px; */
   /* column-gap: 16px;  */
 }
@@ -38,6 +44,7 @@ body {
 .parent span {
   /* border: 4px solid cadetblue; */
   background-color: cadetblue;
+  /* font-size: 32px; */
   /* flex-grow: 1; */
   /* flex-shrink: 0; */
   /* width: 200px; */
@@ -53,6 +60,8 @@ body {
   /* margin-inline: auto; */
   /* margin-block: auto; */
   /* order: 10; */
+  /* flex: 3;  */
+  /* flex: 100 2 3px; is a shorthand property that sets the flex-grow, flex-shrink, and flex-basis properties of a flex item. In this case, it means that the flex item will grow to fill any available space in the parent container (flex-grow: 100), it will shrink if necessary to fit within the parent container (flex-shrink: 2), and its initial size will be 3px (flex-basis: 3px). The actual size of the flex item will depend on the available space in the parent container and the sizes of the other flex items. */
 }
 
 .parent p {
@@ -82,37 +91,39 @@ body {
   /* border: 4px solid yellowgreen; */
   background-color: yellowgreen;
   /* flex-shrink: 0; */
+  /* margin-inline: auto; */
+  /* margin-block: auto; */
   /* width: 400px; */
   /* width: 100%; */
-  height: 150px;
+  /* height: 150px; */
   /* flex-grow: 1; */
   /* flex-basis: 100%; */
   /* flex-basis: 100px; */
   /* margin-left: auto; */
   /* margin-right: auto; */
   /* order: -11; */
+  /* align-self: center; */
+  /* align self is used specifically by elements whereas align-items is used for the parent container, align-self allows you to override the alignment of a specific flex item within the parent container. It accepts the same values as align-items (e.g., flex-start, flex-end, center, stretch) and can be applied to individual flex items to control their vertical alignment within the parent container. In this case, align-self: center; will center the anchor element vertically within the parent container, regardless of the alignment set by align-items on the parent container. */
 }
 
 .parent>* {
-  width: 200px;
+  /* align self is used specifically by elements whereas align-items is used for the parent container, align-self allows you to override the alignment of a specific flex item within the parent container. It accepts the same values as align-items (e.g., flex-start, flex-end, center, stretch) and can be applied to individual flex items to control their vertical alignment within the parent container. In this case, align-self: center; will center the anchor element vertically within the parent container, regardless of the alignment set by align-items on the parent container. */
+  /* width: 200px; */
   /* flex-shrink: 0; */
   /* margin-left: 16px; */
+  width: 300px;
 }
 
-/* .parent > * + * { */
+.parent > * + * { */
   /* selects all direct children of the parent container that are immediately preceded by another child element, and applies a left margin of 16px to create space between them. */
   /* margin-left: 16px; */
-/* } */
+  /* width: 100%; */
+/* }
 
 
 
 
 /* flex is used to create flexible and responsive layouts by allowing the items within a container to adjust their size and position based on the available space. It is a shorthand property that combines three properties: flex-grow, flex-shrink, and flex-basis. */
-
-
-
-
-
 
 
 /* difference between allign-items and justify-content:
@@ -135,3 +146,10 @@ body {
 
 
 /* order property is used to control the order of flex items within a flex container. By default, flex items have order 0 and are displayed in the order they appear in the HTML source code, but you can use the order property to change their position. The order property accepts an integer value, where lower values are displayed before higher values. For example, if you set the order of one flex item to 1 and another to 2, the item with order 1 will be displayed before the item with order 2. You can also use negative values for the order property to display items before those with a default order of 0. */
+
+/* main axix and cross axis: */
+/* - main axis: in flex direction, it is the primary axis along which flex items are laid out. It can be horizontal (row) or vertical (column) depending on the flex-direction property of the parent container. */
+ /* cross axis: is perpendicular to the main axis and is used to control the alignment of flex items along that axis. For example, if the main axis is horizontal (row), the cross axis will be vertical, and you can use properties like align-items and align-self to control the vertical alignment of flex items within the parent container */
+
+
+ /* inline flex makes the parent container behave like an inline element, meaning it will only take up as much width as necessary to fit its content, and it will allow other elements to be placed next to it on the same line. This is in contrast to a regular flex container, which behaves like a block-level element and takes up the full width of its parent container. Using inline-flex can be useful when you want to create a flexible layout that is contained within a specific area of the page, rather than taking up the entire width. */
