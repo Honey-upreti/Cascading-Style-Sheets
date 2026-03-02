@@ -9,10 +9,19 @@
 
 /* media is of two types: screen and print */
 
-@media screen {
+@media  (max-width: 700px ) {
     .square {
         border: 25px solid red;
         background-color: hotpink;
     }
 }
+
+
+/* @media  (500px <= width <= 700px) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    }
+} */
+/* This is media level 4 syntax. It is supported in all modern browsers, but not in Internet Explorer. */
     
