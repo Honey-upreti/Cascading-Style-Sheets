@@ -9,12 +9,19 @@
 
 /* media is of two types: screen and print */
 
-@media  (max-width: 700px ) {
+@media print and  (min-width: 500px ) {
     .square {
         border: 25px solid red;
         background-color: hotpink;
     }
-}
+}    
+/* @media  (max-width: 700px ) {
+    .square {
+        border: 25px solid red;
+        background-color: hotpink;
+    } 
+}  */
+    /* This is media level 3 syntax. It is supported in all browsers, including Internet Explorer. */
 
 
 /* @media  (500px <= width <= 700px) {
@@ -25,3 +32,5 @@
 } */
 /* This is media level 4 syntax. It is supported in all modern browsers, but not in Internet Explorer. */
     
+
+/* media type is written simply after @media keyword whereas media feature is written inside parentheses. And these two combines to make a media query */
