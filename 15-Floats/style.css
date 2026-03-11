@@ -1,0 +1,26 @@
+.container {
+    background-color: cadetblue;
+    display: flow-root;
+}
+
+img {
+    width: 400px;
+     float: left;
+      /*float makes some inline elements block */
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    /* position: absolute; */
+}
+
+/* a {
+    width: 200px;
+    float: left;
+     float makes some inline elements block
+    margin-right: 0.75rem;
+    background-color: cornflowerblue;
+} */
+
+/* .first-paragraph {
+    /* background-color: burlywood; */
+    /* clear: both; 
+} */
