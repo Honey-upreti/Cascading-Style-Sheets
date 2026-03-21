@@ -6,6 +6,21 @@ body {
     box-sizing: border-box;
 }
 
+.first-container {
+    background-color: hotpink;
+    box-shadow: 0 5px 16px;
+    padding: 1rem;
+    position: relative;
+    z-index: 5;
+}
+
+.second-container {
+    background-color: cadetblue;
+    box-shadow: 0 5px 16px;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
 .box {
     width: 200px;
     height: 200px;
@@ -33,5 +48,8 @@ body {
     background-color: blue;
     left: 3rem;
     position: relative;
-    top: -200px;
+}
+
+.second-container .red-box {
+    z-index: 5;
 }
