@@ -1,0 +1,77 @@
+.container {
+    background-color: lightblue;
+    min-height: 60vh;
+    display: grid;
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    /* grid-template-columns: repeat(4, 25%); */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: 1fr 2fr 3fr 1fr; */
+    /* grid-template-columns: 150px 150px 150px 150px; */
+    /* grid-template-columns: repeat(4,101px); */
+    /* grid-template-columns: repeat(4,auto); */
+    /* REPEAT 3 TIMES, 150px */
+    
+    /* grid-template-rows: 150px 150px 150px; */
+    grid-template-rows: repeat(4,100px);
+    /* grid-template-rows: repeat(4,auto); */
+    /* gap: 20px; */
+  }
+
+.box {
+    color: wheat;
+    font-size: 4rem;
+}
+
+.box-1 {
+  background-color: green;
+  /* grid-column-start: span 3; */
+  /* grid-row-start: span 3; */
+  grid-column-start: 2;
+  grid-row-start: 2;
+
+    grid-column-end: 4;
+    grid-row-end: 4;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.box-2 {
+  background-color: blueviolet;
+}
+
+.box-3 {
+  background-color: blue;
+}
+
+.box-4 {
+  background-color: brown;
+}
+
+.box-5 {
+  background-color: coral;
+ 
+}
+
+.box-6 {
+  background-color: darkblue;
+}
+
+.box-7 {
+  background-color: darkred;
+}
+
+.box-8 {
+  background-color: darkslategray;
+}
+
+.box-9 {
+  background-color: gray;
+}
+
+.box-10 {
+  background-color: navy;
+}
+
+
+/* Every element inside grid become display: block */
