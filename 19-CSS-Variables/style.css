@@ -1,3 +1,9 @@
+:root {
+  --primary-brand-color: #ea4c89;
+  --secondary-brand-color: #2ea44f;
+  --rounded: 24px;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -10,11 +16,12 @@ h2 {
     color: var(--secondary-brand-color);
 }
 
-.first-container {
-  --primary-brand-color: #fa6400;
-  --secondary-brand-color: #405cf5;
-  --rounded: 24px;
-}
+/* .first-container {
+  --primary-brand-color: #ea4c89;
+  --secondary-brand-color: #2ea44f;
+  --rounded: 4px;
+} */
+
 
 a {
   color: var(--primary-brand-color);
